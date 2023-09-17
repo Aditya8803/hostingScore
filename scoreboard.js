@@ -361,68 +361,67 @@ const checkTarget = ()=>{
         if(teamOneBat === 1){
 
         if(numberRuns>=target){
-            alert(teamTwo + " is Winner by " + 10-numberWicket)
-            console.log("Aditya")
-            // goToWelcome();
-            // localStorage.clear();
+            alert(teamTwo + " is Winner by " + (10-numberWicket) + " wickets")
+            goToWelcome();
+            localStorage.clear();
 
         }
         if(numberOvers === maxOvers ){
             if(numberRuns<target-1){
                 console.log("Hi")
-                alert(teamOne + " is Winner")
-                // goToWelcome();
-                // localStorage.clear();
+                alert(teamOne + " is Winner by " + (target-1-numberRuns) + " runs") 
+                goToWelcome();
+                localStorage.clear();
 
             }
                 if(numberRuns === target -1 ){
                     alert("Match Drawn")
-                    // goToWelcome();
-                    // localStorage.clear();
+                    goToWelcome();
+                    localStorage.clear();
                 }
             }
             if(numberRuns === target -1 && numberWicket===10){
                 alert("Match Drawn")
-                // goToWelcome();
-                // localStorage.clear();
+                goToWelcome();
+                localStorage.clear();
             }
         if(numberWicket ===10 && numberOvers !=maxOvers && numberRuns<target-1){
             console.log("Hello")
-            alert(teamOne + " is Winner")
-            // goToWelcome();
-            // localStorage.clear();
+            alert(teamOne + " is Winner" + (target-1-numberRuns) + " runs")
+            goToWelcome();
+            localStorage.clear();
 
         }
     }
     if(teamTwoBat ===1){
         if(numberRuns>=target){
-            alert(teamOne + " is Winner")
-            // goToWelcome();
-            // localStorage.clear();
+            alert(teamOne + " is Winner" + (10-numberWicket) + " wickets")
+            goToWelcome();
+            localStorage.clear();
         }
         if(numberOvers === maxOvers ){
             if(numberRuns<target-1){
-                alert(teamTwo + " is Winner")
-                // goToWelcome();
-                // localStorage.clear();
+                alert(teamTwo + " is Winner" + (target-1-numberRuns) + " runs")
+                goToWelcome();
+                localStorage.clear();
 
             }
                 if(numberRuns === target -1 ){
                     alert("Match Drawn")
-                    // goToWelcome();
-                    // localStorage.clear();
+                    goToWelcome();
+                    localStorage.clear();
 
                 }
             }
             if(numberRuns === target -1 && numberWicket===10){
                 alert("Match Drawn")
-                // goToWelcome();
-                // localStorage.clear();
+                goToWelcome();
+                localStorage.clear();
             }
         if(numberWicket ===10 && numberOvers!=maxOvers && numberRuns<target-1){
-            alert(teamTwo + " is Winner")
-            //  goToWelcome();
-            //  localStorage.clear();
+            alert(teamTwo + " is Winner" + (target-1-numberRuns) + " runs")
+             goToWelcome();
+             localStorage.clear();
 
         }
     }
