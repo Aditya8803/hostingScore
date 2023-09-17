@@ -11,7 +11,7 @@ let timelinePrev= []
 let ballatNoball=0;
 let teamOneBat=0;
 let teamTwoBat=0;
-let icons=['./images/Image0.jpg','./images/Image1.jpg','./images/Image2.jpg','./images/Image3.jpg','./images/Image4.jpg','./images/Image5.jpg'];
+let icons=['Image0.jpg','Image1.jpg','Image2.jpg','Image3.jpg','Image4.jpg','Image5.jpg'];
 let icon1;
 let icon2;
 document.addEventListener('DOMContentLoaded',()=>{
