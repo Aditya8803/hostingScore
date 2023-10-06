@@ -430,5 +430,5 @@ const checkTarget = ()=>{
 //Redirection To Welcomwe Page
 const goToWelcome =() =>{
     alert("You are being redirected to welcome page.All Information would be lost");
-    window.location.replace("welcome.html")
+    window.location.replace("index.html")
 }
